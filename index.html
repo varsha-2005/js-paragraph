@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="main">
         <h1>Random Paragraph Generator</h1>
-        <input type="number" id="wordcount" placeholder="Enter number of words">
-        <button onclick="generateParagraph()">Generate Paragraph</button>
-        <p id="paragraph"></p>
+        <div class="container">
+            <input type="number" id="wordcount" placeholder="Enter number of words">
+            <button onclick="generateParagraph()">Generate</button> 
+        </div>
+        <div class="para">
+            <p id="paragraph"></p>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
